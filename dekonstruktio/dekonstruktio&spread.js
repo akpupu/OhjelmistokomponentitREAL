@@ -21,9 +21,6 @@ console.log(nimi);
 console.log(ika);
 let muutTiedot = { koulutus, kaupunki };
 
-//console.log(Object.values(opiskelija)[0]);
-//console.log(Object.values(opiskelija)[1]);
-//const muutTiedot = opiskelija.slice(2);
 console.log(muutTiedot);
 
 const backend = ["Node.js", "SQL"];
