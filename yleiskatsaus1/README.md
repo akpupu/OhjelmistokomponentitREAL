@@ -1,2 +1,0 @@
-# OhjelmistokomponentitREAL
-Tehtävät
