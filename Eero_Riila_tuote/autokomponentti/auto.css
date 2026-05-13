@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  color: #e0e0e0;
+}
+
+h2 {
+  color: #00d4d4;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #00d4d4;
+}
+
+.card h3 {
+  color: #ff40ff;
+  margin: 0 0 10px 0;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 1px solid #00d4d4;
+  border-radius: 6px;
+  background: #2c2c2c;
+  color: #00d4d4;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #00d4d4;
+  color: #121212;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

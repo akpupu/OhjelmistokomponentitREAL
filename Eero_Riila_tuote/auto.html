@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Auto Kauppa</title>
+    <!-- Tuodaan molemmat komponentit -->
+    <script src="./autokomponentti/autokomponentti.js" defer></script>
+    <script src="./ostoskori/ostoskori.js" defer></script>
+    <style>
+      body {
+        background: #121212;
+        margin: 0;
+        padding: 40px;
+        font-family: sans-serif;
+      }
+      hr {
+        border: 0;
+        border-top: 1px solid #333;
+        margin: 50px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Autolista-komponentti -->
+    <auto-elementti data-url="autovarasto.json"></auto-elementti>
+
+    <hr />
+
+    <!-- Erillinen ostoskorikomponentti -->
+    <!-- <auto-ostoskori></auto-ostoskori> -->
+  </body>
+</html>

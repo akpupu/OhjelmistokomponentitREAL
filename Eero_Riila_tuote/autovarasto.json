@@ -1,0 +1,44 @@
+[
+  {
+    "numero": 4,
+    "hinta": 36000,
+    "merkki": "Kottero",
+    "malli": "GT",
+    "huippunopeus": "100"
+  },
+  {
+    "numero": 5,
+    "hinta": 300000,
+    "merkki": "Menopeli",
+    "malli": "gold",
+    "huippunopeus": "350"
+  },
+  {
+    "numero": 1,
+    "hinta": 200000,
+    "merkki": "Kilpuri",
+    "malli": "gold",
+    "huippunopeus": "70"
+  },
+  {
+    "numero": 6,
+    "hinta": 25000,
+    "merkki": "Biili",
+    "malli": "XL",
+    "huippunopeus": "30"
+  },
+  {
+    "numero": 2,
+    "hinta": 123000,
+    "merkki": "Ajokki",
+    "malli": "silver",
+    "huippunopeus": "30"
+  },
+  {
+    "numero": 7,
+    "hinta": 25000,
+    "merkki": "Hoppa",
+    "malli": "XXL",
+    "huippunopeus": "100"
+  }
+]
